@@ -11,7 +11,6 @@ const server = http.createServer((req, res) => {
     req.url === "/" ? "index.html" : req.url
   );
 
-  // Redirect about.html to 404.html
   if (req.url === "/about.html") {
     filePath = path.join(__dirname, "../public", "404.html");
   }
