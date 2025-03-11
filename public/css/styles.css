@@ -16,26 +16,25 @@ h6,
 p {
   margin-bottom: 16px;
 }
-/* General Styles */
+
 body {
   font-family: "Arial", sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #f5f1e3; /* Light tan background */
-  color: #3e3d32; /* Dark brown for text */
+  background-color: #f5f1e3;
+  color: #3e3d32;
   line-height: 1.6;
 }
 
-/* Navigation Bar */
 nav {
-  background-color: #6b8e23; /* Olive green */
+  background-color: #6b8e23;
   padding: 15px;
   text-align: center;
-  border-bottom: 5px solid #8b5a2b; /* Brown accent */
+  border-bottom: 5px solid #8b5a2b;
 }
 
 nav a {
-  color: #f5f1e3; /* Light tan for contrast */
+  color: #f5f1e3;
   margin: 0 20px;
   text-decoration: none;
   font-size: 22px;
@@ -43,43 +42,49 @@ nav a {
 }
 
 nav a:hover {
-  color: #ffd700; /* Gold accent when hovered */
+  color: #ffd700;
 }
 
-/* Headers */
+a {
+  color: #6b8e23;
+  text-align: center;
+  font-size: 25px;
+  margin-top: 20px;
+  margin-left: 400px;
+}
+
+p {
+  color: #8b5a2b;
+  text-align: center;
+  font-size: 30px;
+  margin-top: 20px;
+}
+
 h1 {
+  color: #8b5a2b;
   text-align: center;
   font-size: 36px;
   margin-top: 20px;
 }
 
 h2 {
+  color: #6b8e23;
   text-align: center;
   font-size: 36px;
   margin-top: 20px;
 }
 
-h1 {
-  color: #8b5a2b; /* Warm brown */
-}
-
-h2 {
-  color: #6b8e23; /* Olive green */
-}
-
-/* Section Styling */
 section {
   text-align: center;
   margin: 40px;
   padding: 20px;
-  background-color: #d2b48c; /* Light brown (tan) */
+  background-color: #d2b48c;
   border-radius: 10px;
   box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
 }
 
-/* Buttons */
 button {
-  background-color: #8b5a2b; /* Warm brown */
+  background-color: #8b5a2b;
   color: white;
   padding: 12px 25px;
   font-size: 18px;
@@ -90,16 +95,14 @@ button {
 }
 
 button:hover {
-  background-color: #6b4226; /* Darker brown */
+  background-color: #6b4226;
 }
 
-/* Disabled Buttons */
 button:disabled {
   background-color: gray;
   cursor: not-allowed;
 }
 
-/* Product Table */
 table {
   width: 90%;
   margin: 30px auto;
@@ -118,12 +121,11 @@ td {
 }
 
 th {
-  background-color: #6b8e23; /* Olive green */
+  background-color: #6b8e23;
   color: white;
   font-size: 22px;
 }
 
-/* Input Fields */
 input {
   display: block;
   width: 80%;
@@ -136,14 +138,12 @@ input {
   text-align: center;
 }
 
-/* Error Page */
 .error-message {
   text-align: center;
   font-size: 30px;
-  color: #8b0000; /* Deep red */
+  color: #8b0000;
 }
 
-/* Footer */
 footer {
   text-align: center;
   padding: 15px;
